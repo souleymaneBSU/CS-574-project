@@ -1,1 +1,5 @@
-# CS-574-project
+## Team members
+Souleymane Cheikh Sidia
+Matt Smith
+
+## List of potential projects
