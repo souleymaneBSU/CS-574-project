@@ -129,6 +129,9 @@ class Link(StructureItem):
 
 def get_navigation(files: Files, config: MkDocsConfig) -> Navigation:
     """Build site navigation from config and files."""
+
+    assert all(file.src_path for file in files.documentation_pages()), 'Documentation page missing path to file'
+
     documentation_pages = files.documentation_pages()
     nav_config = config['nav']
     if nav_config is None:
@@ -182,6 +185,12 @@ def get_navigation(files: Files, config: MkDocsConfig) -> Navigation:
                 f"A reference to '{link.url}' is included in the 'nav' "
                 "configuration, which is not found in the documentation files.",
             )
+
+    assert all(file not in [page for page in items if page.is_page] for file in files if not file.inclusion.is_excluded()), 'Excluded file included in nav'
+    assert all(item.is_section ^ item.is_page ^ item.is_link for item in items), 'A navigation item has more than one type indicated by its boolean flags'
+    assert all(item.children for item in items if item.is_section), 'Empty section created'
+    assert all(any(page.next_page == next_page and next_page.previous_page == page for next_page in pages[1:]) for page in pages[:-1]), 'A Prev/Next page reference is incorrect or missing'
+
     return Navigation(items, pages)
 
 

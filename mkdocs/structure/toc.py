@@ -18,10 +18,12 @@ class _TocToken(TypedDict):
 
 
 def get_toc(toc_tokens: list[_TocToken]) -> TableOfContents:
+    assert all(tt['level'] and tt['id'] and tt['name'] for tt in toc_tokens), 'TocTokens'
     toc = [_parse_toc_token(i) for i in toc_tokens]
     # For the table of contents, always mark the first element as active
     if len(toc):
         toc[0].active = True  # type: ignore[attr-defined]
+
     return TableOfContents(toc)
 
 
@@ -77,4 +79,6 @@ def _parse_toc_token(token: _TocToken) -> AnchorLink:
     anchor = AnchorLink(token['name'], token['id'], token['level'])
     for i in token['children']:
         anchor.children.append(_parse_toc_token(i))
+
+    assert len(anchor.children) == len(token['children'])
     return anchor

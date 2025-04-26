@@ -122,6 +122,7 @@ class Page(StructureItem):
         if self.parent is not None:
             self.parent.active = bool(value)
 
+
     @property
     def is_index(self) -> bool:
         return self.file.name == 'index'
@@ -157,6 +158,9 @@ class Page(StructureItem):
 
     is_link: bool = False
     """Indicates that the navigation object is a "link" object. Always `False` for page objects."""
+
+    __read_source_complete: bool = False
+    __render_complete: bool = False
 
     def _set_canonical_url(self, base: str | None) -> None:
         if base:
@@ -218,6 +222,7 @@ class Page(StructureItem):
                 raise
 
         self.markdown, self.meta = meta.get_data(source)
+        self.__read_source_complete = True
 
     def _set_title(self) -> None:
         warnings.warn(
@@ -240,6 +245,8 @@ class Page(StructureItem):
         """
         if self.markdown is None:
             return None
+        
+        assert self.__read_source_complete or self.__render_complete, 'read_source() or render() have not been called, required for title to have a value'
 
         if 'title' in self.meta:
             return self.meta['title']
@@ -262,6 +269,9 @@ class Page(StructureItem):
 
     def render(self, config: MkDocsConfig, files: Files) -> None:
         """Convert the Markdown source file to HTML as per the config."""
+
+        assert self.__read_source_complete, 'read_source() has not been called, required before render()'
+
         if self.markdown is None:
             raise RuntimeError("`markdown` field hasn't been set (via `read_source`)")
 
@@ -283,6 +293,8 @@ class Page(StructureItem):
         extract_title_ext._register(md)
 
         self.content = md.convert(self.markdown)
+
+
         self.toc = get_toc(getattr(md, 'toc_tokens', []))
         self._title_from_render = extract_title_ext.title
         self.present_anchor_ids = (
@@ -290,6 +302,10 @@ class Page(StructureItem):
         )
         if log.getEffectiveLevel() > logging.DEBUG:
             self.links_to_anchors = relative_path_ext.links_to_anchors
+
+        assert not self.links_to_anchors or all(anchor_link.inclusion.is_included() for anchor_link in self.links_to_anchors)
+        assert not self.links_to_anchors or all(any(anchor in self.content for anchor, file_path in anchor_link.items()) for anchor_link in self.links_to_anchors.values())
+        self.__render_complete = True
 
     present_anchor_ids: set[str] | None = None
     """Anchor IDs that this page contains (can be linked to in this page)."""
