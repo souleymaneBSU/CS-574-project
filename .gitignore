@@ -68,3 +68,7 @@ ENV/
 
 # MkDocs documentation
 site*/
+
+# Pyre/Pysa
+pysa-runs
+.pyre
