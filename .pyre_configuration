@@ -13,6 +13,5 @@
   ],
   "exclude": [
     ".*mkdocs/tests/.*"
-  ],
-  "typeshed":"./venv/lib/pyre_check/typeshed"
+  ]
 }

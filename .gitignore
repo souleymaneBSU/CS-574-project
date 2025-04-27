@@ -72,3 +72,6 @@ site*/
 # Pyre/Pysa
 pysa-runs
 .pyre
+
+# Coverity
+cov-int
