@@ -39,6 +39,8 @@ def serve(
     # string is returned. And it makes MkDocs temp dirs easier to identify.
     site_dir = tempfile.mkdtemp(prefix='mkdocs_')
 
+    kwarg_keys = kwargs.keys()
+
     def get_config():
         config = load_config(
             config_file=config_file,
@@ -52,6 +54,8 @@ def serve(
     is_dirty = build_type == 'dirty'
 
     config = get_config()
+    assert all(key in config.keys() for key in kwarg_keys ), 'Manually provided key did not appear in the config'
+
     config.plugins.on_startup(command=('build' if is_clean else 'serve'), dirty=is_dirty)
 
     host, port = config.dev_addr
