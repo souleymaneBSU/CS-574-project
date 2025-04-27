@@ -297,6 +297,10 @@ def _open_config_file(config_file: str | IO | None) -> Iterator[IO]:
 
     The file descriptor is automatically closed when the context manager block is existed.
     """
+
+    assert config_file is not None or isinstance(config_file, str) \
+        or getattr(config_file, 'closed', True) or isinstance(config_file, IO), 'config_file is not one of the valid types'
+
     # Default to the standard config filename.
     if config_file is None:
         paths_to_try = ['mkdocs.yml', 'mkdocs.yaml']
@@ -336,6 +340,12 @@ def _open_config_file(config_file: str | IO | None) -> Iterator[IO]:
         if hasattr(result_config_file, 'close'):
             result_config_file.close()
 
+    assert config_file != None or paths_to_try == ['mkdocs.yml', 'mkdocs.yaml'], 'config_file was none and backup paths were not used'
+    assert config_file != None or 'mkdocs.yml' in result_config_file.name or 'mkdocs.yaml' in result_config_file.name, 'config_file was none and file found does not have expected name: ' + result_config_file.name
+    assert not isinstance(config_file, str) or paths_to_try == [config_file], 'config_file is a path and the path tried was not that path'
+    assert not isinstance(config_file, str) or config_file in result_config_file.name, 'config_file is a path and file found does not match the path name'
+    assert not isinstance(config_file, IO) or paths_to_try is None, 'config_file is an IO but paths to try still had names'
+    assert getattr(result_config_file, 'closed'), 'file was not closed'
 
 def load_config(
     config_file: str | IO | None = None, *, config_file_path: str | None = None, **kwargs
@@ -349,6 +359,7 @@ def load_config(
     Extra kwargs are passed to the configuration to replace any default values
     unless they themselves are None.
     """
+
     options = kwargs.copy()
 
     # Filter None values from the options. This usually happens with optional
@@ -388,5 +399,8 @@ def load_config(
         raise exceptions.Abort(
             f"Aborted with {len(warnings)} configuration warnings in 'strict' mode!"
         )
+    
+    assert all(override_value in cfg.values() for override_value in options.values()), 'Kwargs override value not included in config' + options.values()
+    assert not config_file_path or config_file_path == cfg.config_file_path, 'Supplied config_file_path does not match the loaded config file path'
 
     return cfg
