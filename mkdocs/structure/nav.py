@@ -51,6 +51,7 @@ class Section(StructureItem):
         self.children = children
 
         self.active = False
+        self.__active = False
 
     def __repr__(self):
         name = self.__class__.__name__
@@ -74,9 +75,10 @@ class Section(StructureItem):
     @active.setter
     def active(self, value: bool):
         """Set active status of section and ancestors."""
-        self.__active = bool(value)
+        value = bool(value)
+        self.__active = value
         if self.parent is not None:
-            self.parent.active = bool(value)
+            self.parent.active = value
 
     is_section: bool = True
     """Indicates that the navigation object is a "section" object. Always `True` for section objects."""
