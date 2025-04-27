@@ -3,7 +3,7 @@
 import sys
 import unittest
 
-from mkdocs.structure.files import File, Files, set_exclusions
+from mkdocs.structure.files import File, Files, InclusionLevel, set_exclusions
 from mkdocs.structure.nav import Section, _get_by_type, get_navigation
 from mkdocs.structure.pages import Page
 from mkdocs.tests.base import dedent, load_config
@@ -34,6 +34,91 @@ class SiteNavigationTests(unittest.TestCase):
         self.assertEqual(len(site_navigation.items), 2)
         self.assertEqual(len(site_navigation.pages), 2)
         self.assertEqual(repr(site_navigation.homepage), "Page(title='Home', url='/')")
+
+    def test_handling_bad_config_with_one_item(self):
+        nav_cfg = [
+            {'Home': 'index.md'},
+        ]
+        expected = dedent(
+            """
+            Page(title=[blank], url='/')
+            """
+        )
+        cfg = load_config(nav=nav_cfg, site_url='http://example.com/')
+        fs = [
+            File(list(item.values())[0], cfg.docs_dir, cfg.site_dir, cfg.use_directory_urls)
+            for item in nav_cfg
+        ]
+
+        cfg['nav'] = 'index.md'
+        files = Files(fs)
+        site_navigation = get_navigation(files, cfg)
+        self.assertEqual(str(site_navigation).strip(), expected)
+        self.assertEqual(len(site_navigation.items), 1)
+        self.assertEqual(len(site_navigation.pages), 1)
+        self.assertEqual(repr(site_navigation.homepage), "Page(title=[blank], url='/')")
+
+    def test_nav_with_excluded_file_in_nav(self):
+        nav_cfg = [
+            {'Home': 'index.md'},
+            {'About': 'about.md'},
+        ]
+        expected = dedent(
+            """
+            Page(title='Home', url='/')
+            Page(title='About', url='/about/')
+            """
+        )
+        cfg = load_config(nav=nav_cfg, site_url='http://example.com/')
+        fs1 = File(list(nav_cfg[0].values())[0], cfg.docs_dir, cfg.site_dir, cfg.use_directory_urls)
+        fs2 = File(list(nav_cfg[1].values())[0], cfg.docs_dir, cfg.site_dir, cfg.use_directory_urls, inclusion=InclusionLevel.EXCLUDED)
+        files = Files([fs1, fs2])
+        with self.assertLogs('mkdocs', level='DEBUG') as cm:
+            site_navigation = get_navigation(files, cfg)
+        self.assertEqual(str(site_navigation).strip(), expected)
+        self.assertEqual(len(site_navigation.items), 2)
+        self.assertEqual(len(site_navigation.pages), 2)
+        self.assertEqual(repr(site_navigation.homepage), "Page(title='Home', url='/')")
+
+    def test_nav_with_excluded_file_not_in_nav(self):
+        nav_cfg = [
+            {'Home': 'index.md'}
+        ]
+        expected = dedent(
+            """
+            Page(title='Home', url='/')
+            """
+        )
+        cfg = load_config(nav=nav_cfg, site_url='http://example.com/')
+        fs1 = File('index.md', cfg.docs_dir, cfg.site_dir, cfg.use_directory_urls)
+        fs2 = File('about.md', cfg.docs_dir, cfg.site_dir, cfg.use_directory_urls, inclusion=InclusionLevel.EXCLUDED)
+        files = Files([fs1, fs2])
+        site_navigation = get_navigation(files, cfg)
+        self.assertEqual(str(site_navigation).strip(), expected)
+        self.assertEqual(len(site_navigation.items), 1)
+        self.assertEqual(len(site_navigation.pages), 1)
+        self.assertEqual(repr(site_navigation.homepage), "Page(title='Home', url='/')")
+    
+    def test_nav_with_excluded_file_no_nav(self):
+        nav_cfg = [
+            {'Home': 'index.md'},
+            {'About': 'about.md'},
+        ]
+        expected = dedent(
+            """
+            Page(title=[blank], url='/')
+            """
+        )
+        cfg = load_config(nav=nav_cfg, site_url='http://example.com/')
+        fs1 = File(list(nav_cfg[0].values())[0], cfg.docs_dir, cfg.site_dir, cfg.use_directory_urls)
+        fs2 = File(list(nav_cfg[1].values())[0], cfg.docs_dir, cfg.site_dir, cfg.use_directory_urls, inclusion=InclusionLevel.EXCLUDED)
+        files = Files([fs1, fs2])
+        cfg['nav'] = None
+        site_navigation = get_navigation(files, cfg)
+        self.assertEqual(str(site_navigation).strip(), expected)
+        self.assertEqual(len(site_navigation.items), 1)
+        self.assertEqual(len(site_navigation.pages), 1)
+        self.assertEqual(site_navigation.pages[0].file, fs1)
 
     def test_nav_no_directory_urls(self):
         nav_cfg = [
