@@ -24,6 +24,19 @@ After:  Stmts 3776    Miss 374   Br 1140    BrPart 119    prct 89%
 
 ## Commands
 
+### Coverity
+
+~/Downloads/cov-analysis-linux64-2024.6.1/bin/cov-build --dir cov-int --no-command --fs-capture-search mkdocs
+
+tar czvf dataflow.tgz cov-int/
+
+### pyre
+pyre
+
+### pysa
+pyre analyze --save-results-to ./pysa-runs
+cd pysa-runs
+sapp analyze ./taint-output.json
 
 
 ## Additional Tests:
