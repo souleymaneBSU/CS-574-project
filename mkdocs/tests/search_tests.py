@@ -338,6 +338,7 @@ class SearchIndexTests(unittest.TestCase):
         self.assertEqual(toc_item3.url, "#heading-3")
         self.assertEqual(toc_item3.title, "Heading 3")
 
+    @unittest.skipIf(False, 'Additional Unit Tests for Project')
     def test_do_not_find_toc_by_id(self):
         """Test finding the relevant TOC item by the tag ID."""
         index = search_index.SearchIndex()

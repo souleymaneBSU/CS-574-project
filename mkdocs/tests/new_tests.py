@@ -24,6 +24,7 @@ class NewTests(unittest.TestCase):
                 self.assertTrue(os.path.exists(expected_path))
 
     @tempdir()
+    @unittest.skipIf(False, 'Additional Unit Tests for Project')
     def test_new_config_exists(self, temp_dir):
         with change_dir(temp_dir):
             
@@ -45,6 +46,7 @@ class NewTests(unittest.TestCase):
                 self.assertFalse(os.path.exists(expected_path))
 
     @tempdir()
+    @unittest.skipIf(False, 'Additional Unit Tests for Project')
     def test_new_index_exists(self, temp_dir):
         with change_dir(temp_dir):
             
@@ -68,6 +70,7 @@ class NewTests(unittest.TestCase):
             for expected_path in expected_paths:
                 self.assertTrue(os.path.exists(expected_path))
 
+    @unittest.skipIf(False, 'Additional Unit Tests for Project')
     @tempdir()
     def test_new_docs_dir_exists(self, temp_dir):
         with change_dir(temp_dir):

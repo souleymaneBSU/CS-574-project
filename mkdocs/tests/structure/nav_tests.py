@@ -35,6 +35,7 @@ class SiteNavigationTests(unittest.TestCase):
         self.assertEqual(len(site_navigation.pages), 2)
         self.assertEqual(repr(site_navigation.homepage), "Page(title='Home', url='/')")
 
+    @unittest.skipIf(False, 'Additional Unit Tests for Project')
     def test_handling_bad_config_with_one_item(self):
         nav_cfg = [
             {'Home': 'index.md'},
@@ -58,6 +59,7 @@ class SiteNavigationTests(unittest.TestCase):
         self.assertEqual(len(site_navigation.pages), 1)
         self.assertEqual(repr(site_navigation.homepage), "Page(title=[blank], url='/')")
 
+    @unittest.skipIf(False, 'Additional Unit Tests for Project')
     def test_nav_with_excluded_file_in_nav(self):
         nav_cfg = [
             {'Home': 'index.md'},
@@ -80,6 +82,7 @@ class SiteNavigationTests(unittest.TestCase):
         self.assertEqual(len(site_navigation.pages), 2)
         self.assertEqual(repr(site_navigation.homepage), "Page(title='Home', url='/')")
 
+    @unittest.skipIf(False, 'Additional Unit Tests for Project')
     def test_nav_with_excluded_file_not_in_nav(self):
         nav_cfg = [
             {'Home': 'index.md'}
@@ -99,6 +102,7 @@ class SiteNavigationTests(unittest.TestCase):
         self.assertEqual(len(site_navigation.pages), 1)
         self.assertEqual(repr(site_navigation.homepage), "Page(title='Home', url='/')")
     
+    @unittest.skipIf(False, 'Additional Unit Tests for Project')
     def test_nav_with_excluded_file_no_nav(self):
         nav_cfg = [
             {'Home': 'index.md'},
