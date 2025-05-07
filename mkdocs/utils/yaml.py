@@ -139,6 +139,8 @@ def yaml_load(source: IO | str, loader: type[yaml.BaseLoader] | None = None) -> 
     if 'INHERIT' in result and not isinstance(source, str):
         relpath = result.pop('INHERIT')
         abspath = os.path.normpath(os.path.join(os.path.dirname(source.name), relpath))
+        # Assert that the inherited path is a file
+        assert os.path.isfile(abspath), f"Expected inherited config at {abspath} to be a file."
         if not os.path.exists(abspath):
             raise exceptions.ConfigurationError(
                 f"Inherited config file '{relpath}' does not exist at '{abspath}'."
