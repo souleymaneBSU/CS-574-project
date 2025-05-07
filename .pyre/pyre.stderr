@@ -10073,3 +10073,169 @@
 2025-04-28 09:27:15,214 [PID 50993] PERFORMANCE  Check_Postprocessing: 0.000s
 2025-04-28 09:27:15,214 [PID 50993] PERFORMANCE  Check (request kind: FullCheck): 0.366s
 2025-04-28 09:27:15,235 [PID 50993] ERROR Found 3 type errors!
+2025-05-07 12:59:03,046 [PID 162464] INFO Pyre binary is located at `/home/matt/Documents/CS/CS574/mkdocs/venv/bin/pyre.bin`
+2025-05-07 12:59:03,047 [PID 162464] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-05-07 12:59:03,074 [PID 162464] INFO No typeshed specified, looking for it...
+2025-05-07 12:59:03,074 [PID 162464] INFO Found: `/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed`
+2025-05-07 12:59:03,075 [PID 162464] INFO Writing arguments into /tmp/pyre_arguments_v605wxkc.json...
+2025-05-07 12:59:03,075 [PID 162464] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/matt/Documents/CS/CS574/mkdocs$mkdocs"
+    ]
+  },
+  "search_paths": [
+    "/home/matt/.local/lib/python3.12/site-packages$secretstorage",
+    "/home/matt/.local/lib/python3.12/site-packages$httpx",
+    "/home/matt/.local/lib/python3.12/site-packages$pydantic_core",
+    "/home/matt/.local/lib/python3.12/site-packages$pyproject_hooks",
+    "/home/matt/.local/lib/python3.12/site-packages$httpcore",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$mkdocs",
+    "/home/matt/.local/lib/python3.12/site-packages$certifi",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$mkdocs_click",
+    "/home/matt/.local/lib/python3.12/site-packages$dns",
+    "/home/matt/.local/lib/python3.12/site-packages$uv",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$mkdocstrings",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$markupsafe",
+    "/home/matt/.local/lib/python3.12/site-packages$hatch_mkdocs",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$pytest",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$traitlets",
+    "/home/matt/.local/lib/python3.12/site-packages$more_itertools",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$babel",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$black",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$asttokens",
+    "/home/matt/.local/lib/python3.12/site-packages$typeguard",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$werkzeug",
+    "/home/matt/.local/lib/python3.12/site-packages$hatch_pip_compile",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$pip",
+    "/home/matt/.local/lib/python3.12/site-packages$mypyc",
+    "/home/matt/.local/lib/python3.12/site-packages$pluggy",
+    "/home/matt/.local/lib/python3.12/site-packages$libcst",
+    "/home/matt/.local/lib/python3.12/site-packages$pydantic",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$coverage",
+    "/home/matt/.local/lib/python3.12/site-packages$mypy",
+    "/home/matt/.local/lib/python3.12/site-packages$cbor2",
+    "/home/matt/.local/lib/python3.12/site-packages$sniffio",
+    "/home/matt/.local/lib/python3.12/site-packages$build",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$mkdocs_autorefs",
+    "/home/matt/.local/lib/python3.12/site-packages$tomlkit",
+    "/home/matt/.local/lib/python3.12/site-packages$dataclasses_json",
+    "/home/matt/.local/lib/python3.12/site-packages$trove_classifiers",
+    "/home/matt/.local/lib/python3.12/site-packages$cryptography",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$promise",
+    "/home/matt/.local/lib/python3.12/site-packages$zstandard",
+    "/home/matt/.local/lib/python3.12/site-packages$websockets",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$mkdocstrings_handlers",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$pkg_resources",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$prompt_toolkit",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$itsdangerous",
+    "/home/matt/.local/lib/python3.12/site-packages$filelock",
+    "/home/matt/.local/lib/python3.12/site-packages$click",
+    "/home/matt/.local/lib/python3.12/site-packages$tomli_w",
+    "/home/matt/.local/lib/python3.12/site-packages$mkdocs_get_deps",
+    "/home/matt/.local/lib/python3.12/site-packages$rich",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$_pytest",
+    "/home/matt/.local/lib/python3.12/site-packages$marshmallow",
+    "/home/matt/.local/lib/python3.12/site-packages$platformdirs",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$isort",
+    "/home/matt/.local/lib/python3.12/site-packages$packaging",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$executing",
+    "/home/matt/.local/lib/python3.12/site-packages$markdown_it",
+    "/home/matt/.local/lib/python3.12/site-packages$annotated_types",
+    "/home/matt/.local/lib/python3.12/site-packages$pathspec",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$blinker",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$flask",
+    "/home/matt/.local/lib/python3.12/site-packages$anyio",
+    "/home/matt/.local/lib/python3.12/site-packages$multiformats",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$pure_eval",
+    "/home/matt/.local/lib/python3.12/site-packages$typing_validation",
+    "/home/matt/.local/lib/python3.12/site-packages$watchdog",
+    "/home/matt/.local/lib/python3.12/site-packages$mdurl",
+    "/home/matt/.local/lib/python3.12/site-packages$hatchling",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$griffe",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$stack_data",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$parso",
+    "/home/matt/.local/lib/python3.12/site-packages$h11",
+    "/home/matt/.local/lib/python3.12/site-packages$bases",
+    "/home/matt/.local/lib/python3.12/site-packages$multiformats_config",
+    "/home/matt/.local/lib/python3.12/site-packages$testslide",
+    "/home/matt/.local/lib/python3.12/site-packages$piptools",
+    "/home/matt/.local/lib/python3.12/site-packages$hyperlink",
+    "/home/matt/.local/lib/python3.12/site-packages$idna",
+    "/home/matt/.local/lib/python3.12/site-packages$jinja2",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$graphql",
+    "/home/matt/.local/lib/python3.12/site-packages$keyring",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$mkdocs_literate_nav",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib64/python3.12/site-packages$iniconfig",
+    "/home/matt/.local/lib/python3.12/site-packages$hatch",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stdlib",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/Pillow",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/boto",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/regex",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/requests",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/retry",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/matt/Documents/CS/CS574/mkdocs/venv/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [
+    ".*mkdocs/tests/.*"
+  ],
+  "checked_directory_allowlist": [
+    "/home/matt/Documents/CS/CS574/mkdocs/mkdocs"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/matt/Documents/CS/CS574/mkdocs/.pyre",
+  "global_root": "/home/matt/Documents/CS/CS574/mkdocs",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 9
+  },
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": false
+}
+2025-05-07 12:59:03,136 [PID 162464] INFO  Initializing shared memory (heap_size: 8589934592, dep_table_pow: 1, hash_table_pow: 26)
+2025-05-07 12:59:03,136 [PID 162464] INFO  Building module tracker...
+2025-05-07 12:59:03,399 [PID 162464] PERFORMANCE  Module tracker built: 0.260s
+2025-05-07 12:59:03,450 [PID 162464] PERFORMANCE  Full environment built: 0.311s
+2025-05-07 12:59:03,450 [PID 162464] INFO  Collecting all definitions...
+2025-05-07 12:59:05,180 [PID 162464] PERFORMANCE  Collected definitions (defines: 1255): 1.739s
+2025-05-07 12:59:05,181 [PID 162464] INFO  Checking 1255 functions...
+2025-05-07 12:59:06,316 [PID 162464] INFO  Processed 126 of 1255 functions
+2025-05-07 12:59:06,488 [PID 162464] INFO  Processed 252 of 1255 functions
+2025-05-07 12:59:06,539 [PID 162464] INFO  Processed 378 of 1255 functions
+2025-05-07 12:59:06,560 [PID 162464] INFO  Processed 504 of 1255 functions
+2025-05-07 12:59:06,885 [PID 162464] INFO  Processed 630 of 1255 functions
+2025-05-07 12:59:07,371 [PID 162464] INFO  Processed 756 of 1255 functions
+2025-05-07 12:59:07,514 [PID 162464] INFO  Processed 882 of 1255 functions
+2025-05-07 12:59:07,585 [PID 162464] INFO  Processed 1008 of 1255 functions
+2025-05-07 12:59:07,697 [PID 162464] INFO  Processed 1129 of 1255 functions
+2025-05-07 12:59:07,728 [PID 162464] INFO  Processed 1255 of 1255 functions
+2025-05-07 12:59:07,728 [PID 162464] PERFORMANCE  Check_TypeCheck: 2.539s
+2025-05-07 12:59:07,728 [PID 162464] MEMORY  Shared memory size post-typecheck (size: 21)
+2025-05-07 12:59:07,728 [PID 162464] INFO  Postprocessing 22 sources...
+2025-05-07 12:59:07,799 [PID 162464] INFO  Postprocessed 22 of 22 sources
+2025-05-07 12:59:07,799 [PID 162464] PERFORMANCE  Check_Postprocessing: 0.077s
+2025-05-07 12:59:07,799 [PID 162464] PERFORMANCE  Check (request kind: FullCheck): 4.666s
+2025-05-07 12:59:07,963 [PID 162464] ERROR Found 4 type errors!
