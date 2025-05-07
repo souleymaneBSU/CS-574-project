@@ -30,10 +30,12 @@ def new(output_dir: str) -> None:
 
     existing_file_timestamps = []
     if os.path.exists(output_dir):
+        # Assert that the project directory exists and no new file created
+        assert os.path.isdir(output_dir), f"{output_dir} should be a valid directory."
         for file in os.listdir(output_dir):
             if os.path.isfile(file):
                 existing_file_timestamps.append(os.path.getctime(file))
-
+    
     docs_dir = os.path.join(output_dir, 'docs')
     config_path = os.path.join(output_dir, 'mkdocs.yml')
     index_path = os.path.join(docs_dir, 'index.md')
