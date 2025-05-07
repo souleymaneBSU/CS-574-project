@@ -4,25 +4,23 @@ Matt Smith, Souleymane Cheikh Sidia
 
 ## Assertions
 
-mkdocs/config/base.py: 301-203
-mkdocs/config/base.py: 344-348
-mkdocs/config/base.py: 403-404
+mkdocs/commands/build.py 50, 296, 348, 364-367 
+mkdocs/commands/new.py 62, 63 
+mkdocs/commands/serve.py 57 
+mkdocs/livereload/__init__.py (serve) 198, 232, 233
 
-mkdocs/structure/nav.py: 133
-mkdocs/structure/nav.py: 191-196
+mkdocs/config/base.py: 234, 310, 311, 352-357, 412-413
 
-mkdocs/structure/pages.py: 306-308
-mkdocs/structure/toc.py: 21
-mkdocs/structure/toc.py: 83
-
-Single item nav todo
-
-# Testing
-
-Before additional tests: Stmts 3776    Miss 380   Br 1140    BrPart 127    Percentage88%
-After:  Stmts 3776    Miss 374   Br 1140    BrPart 119    prct 89%
+mkdocs/structure/nav.py: 135, 191-195
+mkdocs/structure/files.py: 588,589
+mkdocs/structure/pages.py: 249. 273, 306-307
+mkdocs/structure/toc.py: 21, 83
 
 ## Commands
+
+### Package install
+
+pip install coverage pytest pyre fb-sapp
 
 ### Coverity
 

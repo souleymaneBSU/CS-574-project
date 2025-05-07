@@ -38,6 +38,8 @@ class BaseConfigOption(Generic[T]):
     def __init__(self) -> None:
         self.warnings: list[str] = []
         self.default = None
+        self._load_dict_called = False
+        self._load_file_called = False
 
     @property
     def default(self):
@@ -132,6 +134,9 @@ class Config(UserDict):
 
     _schema: PlainConfigSchema
     config_file_path: str
+    _load_dict_called: bool = False
+    _load_file_called: bool = False
+    _validate_called: bool = False
 
     def __init_subclass__(cls):
         schema = dict(getattr(cls, '_schema', ()))
@@ -226,6 +231,7 @@ class Config(UserDict):
         return failed, warnings
 
     def validate(self) -> tuple[ConfigErrors, ConfigWarnings]:
+        assert not self._load_file_called or self._load_file_called and self._load_dict_called, 'load file called without load dict'
         failed, warnings = self._pre_validate()
 
         run_failed, run_warnings = self._validate()
@@ -240,6 +246,7 @@ class Config(UserDict):
             failed.extend(post_failed)
             warnings.extend(post_warnings)
 
+        self._validate_called = True
         return failed, warnings
 
     def load_dict(self, patch: dict) -> None:
@@ -252,6 +259,7 @@ class Config(UserDict):
 
         self.__user_configs.append(patch)
         self.update(patch)
+        self._load_dict_called = True
 
     def load_file(self, config_file: IO) -> None:
         """Load config options from the open file descriptor of a YAML file."""
@@ -260,6 +268,7 @@ class Config(UserDict):
             "Use MkDocsConfig.load_file instead",
             DeprecationWarning,
         )
+        self._load_file_called = True
         return self.load_dict(utils.yaml_load(config_file))
 
     @weak_property

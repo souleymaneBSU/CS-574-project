@@ -24,6 +24,7 @@ if TYPE_CHECKING:
 
 
 log = logging.getLogger(__name__)
+_get_context_called: bool = False
 
 
 def get_context(
@@ -34,6 +35,7 @@ def get_context(
     base_url: str = '',
 ) -> templates.TemplateContext:
     """Return the template context for a given page or template."""
+    global _get_context_called
     if page is not None:
         base_url = utils.get_relative_url('.', page.url)
 
@@ -45,6 +47,8 @@ def get_context(
     if isinstance(files, Files):
         files = files.documentation_pages()
 
+    assert config._load_dict_called == True and config._validate_called == True 
+    _get_context_called = True
     return templates.TemplateContext(
         nav=nav,
         pages=files,
@@ -248,6 +252,7 @@ def _build_page(
 
 def build(config: MkDocsConfig, *, serve_url: str | None = None, dirty: bool = False) -> None:
     """Perform a full site build."""
+    global _get_context_called
     logger = logging.getLogger('mkdocs')
 
     # Add CountHandler for strict mode
@@ -287,6 +292,8 @@ def build(config: MkDocsConfig, *, serve_url: str | None = None, dirty: bool = F
         files = get_files(config)
         env = config.theme.get_env()
         files.add_files_from_theme(env, config)
+
+        assert len(set([file.src_dir for file in files])) == 2 + len(config['plugins']), 'Count of distinct directories does not match the expected count'
 
         # Run `files` plugin events.
         files = config.plugins.on_files(files, config=config)
@@ -334,9 +341,11 @@ def build(config: MkDocsConfig, *, serve_url: str | None = None, dirty: bool = F
         doc_files = files.documentation_pages(inclusion=inclusion)
         for file in doc_files:
             assert file.page is not None
+            _get_context_called = False
             _build_page(
                 file.page, config, doc_files, nav, env, dirty, excluded=file.inclusion.is_excluded()
             )
+            assert _get_context_called, 'Context not set as expected, config may be invalid'
 
         log_level = config.validation.links.anchors
         for file in doc_files:
@@ -351,6 +360,11 @@ def build(config: MkDocsConfig, *, serve_url: str | None = None, dirty: bool = F
             raise Abort(f'Aborted with {msg} in strict mode!')
 
         log.info(f'Documentation built in {time.monotonic() - start:.2f} seconds')
+
+        assert all(file.inclusion != InclusionLevel.UNDEFINED for file in files), 'File used in build with UNDEFINED inclusion'
+        assert all([compfile for compfile in files.documentation_pages()].count(file) == 1 for file in files.documentation_pages()), 'Duplicate file found'
+        assert all(os.path.exists(file.abs_dest_path) for file in files if file.inclusion.is_included()), 'An included file was not rendered'
+        assert not any(env.get_template(template) for template in config.theme.static_templates) or os.path.exists(os.path.join(config.site_dir, '404.html')), 'Theme exists and 404 file was not copied from the theme'
 
     except Exception as e:
         # Run `build_error` plugin events.

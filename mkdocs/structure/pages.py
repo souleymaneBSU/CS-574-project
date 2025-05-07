@@ -303,8 +303,8 @@ class Page(StructureItem):
         if log.getEffectiveLevel() > logging.DEBUG:
             self.links_to_anchors = relative_path_ext.links_to_anchors
 
-        assert not self.links_to_anchors or all(anchor_link.inclusion.is_included() for anchor_link in self.links_to_anchors)
-        assert not self.links_to_anchors or all(any(anchor in self.content for anchor, file_path in anchor_link.items()) for anchor_link in self.links_to_anchors.values())
+        assert not self.links_to_anchors or all(anchor_link.inclusion.is_included() for anchor_link in self.links_to_anchors), 'The anchor links include an excluded link'
+        assert not self.links_to_anchors or all(any(anchor in self.content for anchor, file_path in anchor_link.items()) for anchor_link in self.links_to_anchors.values()), 'Page output HTML is missing expected anchor'
         self.__render_complete = True
 
     present_anchor_ids: set[str] | None = None

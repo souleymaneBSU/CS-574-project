@@ -18,7 +18,7 @@ class _TocToken(TypedDict):
 
 
 def get_toc(toc_tokens: list[_TocToken]) -> TableOfContents:
-    assert all(tt['level'] and tt['id'] and tt['name'] for tt in toc_tokens), 'TocTokens'
+    assert all(tt['level'] and tt['id'] and tt['name'] for tt in toc_tokens), 'TocTokens from Markdown parser missing a field'
     toc = [_parse_toc_token(i) for i in toc_tokens]
     # For the table of contents, always mark the first element as active
     if len(toc):
@@ -80,5 +80,5 @@ def _parse_toc_token(token: _TocToken) -> AnchorLink:
     for i in token['children']:
         anchor.children.append(_parse_toc_token(i))
 
-    assert len(anchor.children) == len(token['children'])
+    assert len(anchor.children) == len(token['children']) and all(tt['level'] and tt['id'] and tt['name'] for tt in token['children']), 'Child TOC missing expected field after recursion'
     return anchor

@@ -585,6 +585,8 @@ def get_files(config: MkDocsConfig) -> Files:
             except ValueError:
                 pass
 
+    assert all(file.abs_src_path.startswith(config['docs_dir']) and file.dest_dir == config['site_dir'] for file in files), 'File has incorrect source or site directory'
+    assert all(files.count(conf_filea) ^ files.count(conf_fileb) for conf_fileb, conf_filea in conflicting_files), 'Conflicting files not resolved'
     return Files(files)
 
 
