@@ -1,0 +1,11 @@
+# Version: d59b675bea p-2024.6-push-53
+# Command Line: /home/matt/Downloads/cov-analysis-linux64-2024.6.1/bin/cov-security-da --dir /home/matt/Documents/CS/CS574/mkdocs/cov-int --project-dirs mkdocs
+timer                                      ms      calls
+--------------------------------------------------------
+cov_security_da::run                        5          1
+  cov_security_da::doJSTemplateDA           4          1
+
+activity                                   ms      calls
+--------------------------------------------------------
+cov_security_da::run                        5          1
+cov_security_da::doJSTemplateDA             4          1

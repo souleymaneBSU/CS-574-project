@@ -1,0 +1,12 @@
+cwd:/home/matt/Documents/CS/CS574/mkdocs/pysa-runs
+is_compiler_descendant:0
+file:/home/matt/Documents/CS/CS574/mkdocs/venv/bin/python
+argv:
+python
+-m
+unittest
+discover
+-s
+mkdocs
+-p
+*tests.py

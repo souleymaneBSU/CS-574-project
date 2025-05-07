@@ -1,0 +1,4 @@
+Native Compiler invocation: ./ --coverity_resp_file=/tmp/cov-matt/33c019fb7e653a9e8209e176795d0883/fs-capture-resp-file3
+Working directory: /home/matt/Documents/CS/CS574/mkdocs
+Comptype: capture-config-files
+* Configuring Configuration Filesystem Capture

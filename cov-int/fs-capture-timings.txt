@@ -1,0 +1,31 @@
+# Version: d59b675bea p-2024.6-push-53
+# Command Line: /home/matt/Downloads/cov-analysis-linux64-2024.6.1/bin/cov-build --dir cov-int --no-command --fs-capture-search mkdocs
+timer                                 ms      calls
+---------------------------------------------------
+cov-build                           2145          1
+  create_or_open emit DB               0          1
+    open emit DB                       0          1
+  add_string_to_table                  0          8
+  addEmitFileName                      0          1
+  addEnvironmentVars                   1          1
+    add_string_to_table                1         73
+  Prepare capture                      0          1
+  FileSystemCapture                 2098          1
+  SecurityDA                          35          1
+  TUInfo::getPrimarySFRow              0        252
+  TUInfo::getPrimaryFileName           0        122
+  (left over)                         11
+
+activity                              ms      calls
+---------------------------------------------------
+cov-build                           2145          1
+create_or_open emit DB                 0          1
+open emit DB                           0          1
+add_string_to_table                    1         81
+addEmitFileName                        0          1
+addEnvironmentVars                     1          1
+Prepare capture                        0          1
+FileSystemCapture                   2098          1
+SecurityDA                            35          1
+TUInfo::getPrimarySFRow                0        252
+TUInfo::getPrimaryFileName             0        122

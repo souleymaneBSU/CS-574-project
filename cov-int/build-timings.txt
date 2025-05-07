@@ -1,0 +1,31 @@
+# Version: d59b675bea p-2024.6-push-53
+# Command Line: /home/matt/Downloads/cov-analysis-linux64-2024.6.1/bin/cov-build -dir ./cov-int python -m unittest discover -s mkdocs -p *tests.py
+timer                                    ms      calls
+------------------------------------------------------
+cov-build                             11062          1
+  create_or_open emit DB                  3          1
+    open emit DB                          3          1
+  add_string_to_table                     0         13
+  addEmitFileName                         0          1
+  addEnvironmentVars                      1          1
+    add_string_to_table                   1         73
+  Prepare capture                         0          1
+  Running build command               10821          1
+  generate_generic_compiler_map         191          1
+    handle_derived_compiler              19         16
+  SecurityDA                             37          1
+  (left over)                             9
+
+activity                                 ms      calls
+------------------------------------------------------
+cov-build                             11062          1
+create_or_open emit DB                    3          1
+open emit DB                              3          1
+add_string_to_table                       1         86
+addEmitFileName                           0          1
+addEnvironmentVars                        1          1
+Prepare capture                           0          1
+Running build command                 10821          1
+generate_generic_compiler_map           191          1
+handle_derived_compiler                  19         16
+SecurityDA                               37          1

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>2</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>/home/matt/Downloads/cov-analysis-linux64-2024.6.1/bin/cov-build --dir cov-int --no-command --fs-capture-search mkdocs</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>fedora</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>linux64</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Linux 6.8.5-301.fc40.x86_64 x86_64</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>2024.6.1 (build d59b675bea p-2024.6-push-53)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>matt</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>/home/matt/Documents/CS/CS574/mkdocs</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>/home/matt/Downloads/cov-analysis-linux64-2024.6.1/config/coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>/home/matt/Documents/CS/CS574/mkdocs/cov-int</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>/home/matt/Documents/CS/CS574/mkdocs/cov-int/output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>/home/matt/Documents/CS/CS574/mkdocs/cov-int/emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>2</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>103</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>security-da-ms</name>
+        <value>35</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value></value>
+    </metric>
+</metrics>
+</coverity>

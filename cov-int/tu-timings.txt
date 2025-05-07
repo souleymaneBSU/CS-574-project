@@ -1,0 +1,1120 @@
+Translation unit:
+152 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.es.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+137 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/config/config_options_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+138 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/keyboard-modal.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+139 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.du.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+140 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/config/config_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+142 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/main.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+144 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/config/__init__.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+145 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/nav-sub.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+147 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/config/base.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+149 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/search-modal.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+151 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/config/config_options.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+136 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/commands/serve.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+153 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/toc.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+154 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/config/defaults.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+155 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/__init__.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+157 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.fi.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+182 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/404.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+184 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.fr.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+185 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/gh_deploy_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+187 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+189 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/__init__.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+191 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/livereload_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+124 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/cli_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+88 -> /home/matt/Downloads/cov-analysis-linux64-2024.6.1/closure-compiler/externs/es5.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+89 -> /home/matt/Downloads/cov-analysis-linux64-2024.6.1/closure-compiler/externs/fileapi.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+114 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.da.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+115 -> /home/matt/Downloads/cov-analysis-linux64-2024.6.1/closure-compiler/externs/html5.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+117 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/__init__.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+119 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/__main__.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+120 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/commands/__init__.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+121 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/base.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+122 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/commands/build.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+123 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/build_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+192 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/search_index.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+125 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.de.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+126 -> /home/matt/Downloads/cov-analysis-linux64-2024.6.1/closure-compiler/externs/w3c_css.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+128 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/config/base_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+129 -> /home/matt/Downloads/cov-analysis-linux64-2024.6.1/closure-compiler/externs/w3c_dom1.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+131 -> /home/matt/Downloads/cov-analysis-linux64-2024.6.1/closure-compiler/externs/window.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+132 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/config/config_options_legacy_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+133 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/commands/gh_deploy.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+134 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/content.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+135 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/commands/new.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+242 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/versions.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+232 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/structure/nav.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+233 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/structure/pages.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+234 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.hy.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+235 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/nav.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+236 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/structure/toc.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+237 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/__init__.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+238 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/search.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+239 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/searchbox.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+240 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/toc.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+241 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.it.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+231 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/main.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+243 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.ja.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+244 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.jp.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+245 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.kn.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+246 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.ko.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+247 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.nl.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+248 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.no.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+249 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.pt.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+250 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.ro.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+251 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.ru.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+252 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.sa.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+216 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/livereload/__init__.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+195 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/localization_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+196 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/exceptions.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+198 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/base.html (failure)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+199 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/new_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+202 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/plugin_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+206 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/search_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+209 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/structure/__init__.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+212 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/structure/file_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+213 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.multi.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+215 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.hi.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+127 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/config/__init__.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+217 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/structure/nav_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+219 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.hu.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+220 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/localization.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+221 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/breadcrumbs.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+223 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/structure/page_tests.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+224 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/plugins.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+226 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/footer.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+227 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/structure/__init__.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+229 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/structure/files.py
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+26 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/complicated_config/documentation/custom.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+29 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/complicated_config/theme_tweaks/404.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+48 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/base.html (failure)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+87 -> /home/matt/Downloads/cov-analysis-linux64-2024.6.1/closure-compiler/externs/es3.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+33 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.ar.js
+cov-internal-emit-misc invocation time (seconds): 2
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+32 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/404.html (no ASTs)
+cov-internal-emit-misc invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+146 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/templates/search/worker.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+148 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/complicated_config/documentation/tweak.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+38 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/tr/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+143 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/templates/search/main.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+228 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/utils/templates.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+141 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/templates/search/lunr.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+230 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/utils/yaml.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+205 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/__init__.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+204 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/js/html5shiv.min.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+203 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/__init__.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+39 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/uk/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+201 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/__init__.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+200 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/js/darkmode.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+40 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/uk/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+41 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/zh_CN/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+130 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/prebuild-index.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+197 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/theme.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+218 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/utils/filters.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+207 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/js/theme.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+208 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/utils/__init__.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+37 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/tr/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+210 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/js/theme_extra.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+211 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/utils/babel_stub.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+36 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/ru/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+35 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/ru/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+214 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/utils/cache.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+34 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/pt_BR/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+225 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/utils/rendering.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+156 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/structure/toc_tests.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+31 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.th.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+30 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.te.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+222 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/utils/meta.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+28 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.ta.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+150 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/js/base.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+27 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.sv.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+73 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.vi.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+97 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.woff2 (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+106 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/theme.css (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+105 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/lato-normal.woff2 (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+104 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/lato-normal.woff (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+103 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/lato-normal-italic.woff2 (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+102 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/lato-normal-italic.woff (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+101 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/lato-bold.woff2 (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+100 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/lato-bold.woff (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+99 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/lato-bold-italic.woff2 (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+98 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/lato-bold-italic.woff (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+107 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/theme_extra.css (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+96 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.woff (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+95 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.eot (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+94 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/Roboto-Slab-Regular.woff2 (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+93 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/Roboto-Slab-Regular.woff (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+92 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/Roboto-Slab-Bold.woff2 (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+91 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/css/fonts/Roboto-Slab-Bold.woff (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+90 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/webfonts/fa-v4compatibility.woff2 (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+45 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/messages.pot (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+44 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/zh_TW/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+188 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/utils/babel_stub_tests.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+1 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.stemmer.support.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+42 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/zh_CN/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+43 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/zh_TW/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+194 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/js/bootstrap.bundle.min.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+183 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/theme_tests.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+193 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/utils/utils_tests.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+186 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/utils/__init__.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+47 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.tr.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+118 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/tinyseg.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+116 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/contrib/search/lunr-language/lunr.zh.js
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+46 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/mkdocs_theme.yml (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+190 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/utils/templates_tests.py
+cov-internal-emit-misc invocation time (seconds): 1
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 2
+Translation unit:
+113 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/fa/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+112 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/fa/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+111 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/es/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+110 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/es/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+109 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/de/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+108 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/de/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 1
+cov-build invocation time (seconds): 2
+Translation unit:
+24 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/unicode/docs/♪.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+13 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/subpages/docs/page-title.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+2 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/py.typed (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+3 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/templates/sitemap.xml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+4 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/complicated_config/documentation/index.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+5 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/complicated_config/documentation/tweak.css (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+6 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/complicated_config/mkdocs.yml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+7 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/minimal/docs/testing.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+8 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/minimal/mkdocs.yml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+9 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/projects.yaml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+10 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/subpages/docs/index.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+11 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/subpages/docs/metadata.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+12 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/subpages/docs/non-index.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+25 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/unicode/mkdocs.yml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+14 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/subpages/docs/pageTitle.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+15 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/subpages/docs/sub1/index.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+16 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/subpages/docs/sub1/non-index.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+17 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/subpages/docs/sub1/sub1a/index.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+18 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/subpages/docs/sub1/sub1a/non-index.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+19 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/subpages/docs/sub2/index.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+20 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/subpages/docs/sub2/non-index.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+21 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/subpages/mkdocs.yml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+22 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/unicode/docs/index.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+23 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/tests/integration/unicode/docs/Übersicht.md (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+170 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/es/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+71 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/webfonts/fa-regular-400.woff2 (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+57 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/pt_BR/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+58 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/ru/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+59 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/ru/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+60 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/tr/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+61 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/tr/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+62 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/uk/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+63 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/uk/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+64 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/zh_CN/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+65 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/zh_CN/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+66 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/zh_TW/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+67 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/zh_TW/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+68 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/messages.pot (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+69 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/mkdocs_theme.yml (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+70 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/webfonts/fa-brands-400.woff2 (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+56 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/pt_BR/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+72 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/webfonts/fa-solid-900.woff2 (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+74 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/fr/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+75 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/fr/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+76 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/id/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+77 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/id/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+78 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/it/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+79 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/it/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+80 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/ja/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+81 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/ja/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+82 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/nl/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+83 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/nl/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+84 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/pl/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+85 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/pl/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+86 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/readthedocs/locales/pt_BR/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+167 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/de/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+50 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/nl/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+181 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/nb/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+180 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/ja/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+179 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/ja/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+178 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/it/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+177 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/it/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+176 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/id/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+175 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/id/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+174 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/fr/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+173 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/fr/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+172 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/fa/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+171 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/fa/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+169 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/es/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+168 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/de/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+49 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/nb/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+166 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/js/bootstrap.bundle.min.js.map (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+165 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/css/v4-font-face.min.css (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+164 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/css/solid.min.css (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+163 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/css/fontawesome.min.css (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+162 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/css/brands.min.css (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+161 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/css/bootstrap.min.css.map (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+160 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/css/bootstrap.min.css (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+159 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/css/base.css (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+158 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/babel.cfg (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+51 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/nl/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+52 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/nn/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+53 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/nn/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+54 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/pl/LC_MESSAGES/messages.mo (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
+Translation unit:
+55 -> /home/matt/Documents/CS/CS574/mkdocs/mkdocs/themes/mkdocs/locales/pl/LC_MESSAGES/messages.po (text data)
+cov-emit-text invocation time (seconds): 0
+cov-build invocation time (seconds): 2
