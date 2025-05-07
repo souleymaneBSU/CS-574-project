@@ -206,11 +206,16 @@ class MkDocsConfig(base.Config):
         super().load_dict(patch)
         if 'config_file_path' in patch:
             raise base.ValidationError("Can't set config_file_path in config")
+        
+        self._load_dict_called = True
 
     def load_file(self, config_file: IO) -> None:
         """Load config options from the open file descriptor of a YAML file."""
         loader = get_yaml_loader(config=self)
         self.load_dict(yaml_load(config_file, loader))
+
+        self._load_file_called = True
+
 
 
 def get_schema() -> base.PlainConfigSchema:

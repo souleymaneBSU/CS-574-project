@@ -126,7 +126,9 @@ class LiveReloadServer(socketserver.ThreadingMixIn, wsgiref.simple_server.WSGISe
         self._visible_epoch = self._wanted_epoch  # Latest fully built version of the site.
         self._epoch_cond = threading.Condition()  # Must be held when accessing _visible_epoch.
 
+        self._rebuilds_from_watch: int = 0
         self._want_rebuild: bool = False
+        self._rebuilds: int = 0
         self._rebuild_cond = threading.Condition()  # Must be held when accessing _want_rebuild.
 
         self._shutdown = False
@@ -153,6 +155,7 @@ class LiveReloadServer(socketserver.ThreadingMixIn, wsgiref.simple_server.WSGISe
             log.debug(str(event))
             with self._rebuild_cond:
                 self._want_rebuild = True
+                self._rebuilds_from_watch = self._rebuilds_from_watch + 1
                 self._rebuild_cond.notify_all()
 
         handler = watchdog.events.FileSystemEventHandler()
@@ -192,6 +195,7 @@ class LiveReloadServer(socketserver.ThreadingMixIn, wsgiref.simple_server.WSGISe
     def _build_loop(self):
         while True:
             with self._rebuild_cond:
+                assert not self._watched_paths or self._rebuilds_from_watch, 'Build loop running without any watched files'
                 while not self._rebuild_cond.wait_for(
                     lambda: self._want_rebuild or self._shutdown, timeout=self.shutdown_delay
                 ):
@@ -206,6 +210,7 @@ class LiveReloadServer(socketserver.ThreadingMixIn, wsgiref.simple_server.WSGISe
 
                 self._wanted_epoch = _timestamp()
                 self._want_rebuild = False
+                self._rebuilds = self._rebuilds + 1
 
             try:
                 self.builder()
@@ -223,6 +228,9 @@ class LiveReloadServer(socketserver.ThreadingMixIn, wsgiref.simple_server.WSGISe
                 log.info("Reloading browsers")
                 self._visible_epoch = self._wanted_epoch
                 self._epoch_cond.notify_all()
+
+            assert self._want_rebuild == False, 'Want rebuild is still true after completing the build'
+            assert self._rebuilds <= self._rebuilds_from_watch, 'More rebuilds than file changes'
 
     def shutdown(self, wait=False) -> None:
         self.observer.stop()

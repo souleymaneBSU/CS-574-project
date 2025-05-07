@@ -27,6 +27,13 @@ log = logging.getLogger(__name__)
 
 
 def new(output_dir: str) -> None:
+
+    existing_file_timestamps = []
+    if os.path.exists(output_dir):
+        for file in os.listdir(output_dir):
+            if os.path.isfile(file):
+                existing_file_timestamps.append(os.path.getctime(file))
+
     docs_dir = os.path.join(output_dir, 'docs')
     config_path = os.path.join(output_dir, 'mkdocs.yml')
     index_path = os.path.join(docs_dir, 'index.md')
@@ -51,3 +58,6 @@ def new(output_dir: str) -> None:
         os.mkdir(docs_dir)
     with open(index_path, 'w', encoding='utf-8') as f:
         f.write(index_text)
+
+    assert os.path.exists(output_dir), 'Project not successfully created by new command ' + output_dir
+    assert all(os.path.getctime(file) in existing_file_timestamps for file in os.listdir(output_dir) if os.path.isfile(file))
