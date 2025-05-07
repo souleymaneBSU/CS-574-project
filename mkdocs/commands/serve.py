@@ -78,6 +78,7 @@ def serve(
         if code in (404, 500):
             error_page = join(site_dir, f'{code}.html')
             if isfile(error_page):
+                assert isfile(error_page), f"{code}.html page was expected but not found in the site directory"
                 with open(error_page, 'rb') as f:
                     return f.read()
         return None
