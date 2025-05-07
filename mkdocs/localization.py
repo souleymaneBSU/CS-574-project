@@ -88,5 +88,7 @@ def _get_merged_translations(
             merged_translations = translations
         else:
             merged_translations.merge(translations)
+            assert isinstance(merged_translations, Translations), f"Merged translations are invalid after merging: {dirname}"
+
 
     return merged_translations
