@@ -18,7 +18,7 @@ def test_case_0():
     assert live_reload_server_0.builder == " Rr\x0bECyL\rfR}/BL]RHL"
     assert (
         live_reload_server_0.root
-        == "/Users/souleymanecheikhsidia/Documents/Spring 2025/Pyguin_test/mkdocs/ Rr\x0bECyL\rfR}/BL]RHL"
+        == "./mkdocs/ Rr\x0bECyL\rfR}/BL]RHL"
     )
     assert live_reload_server_0.mount_path == "/"
     assert (
@@ -66,7 +66,7 @@ def test_case_2():
     assert live_reload_server_0.builder == 16
     assert (
         live_reload_server_0.root
-        == "/Users/souleymanecheikhsidia/Documents/Spring 2025/Pyguin_test/mkdocs/Oi_'_$fD,,"
+        == "./mkdocs/Oi_'_$fD,,"
     )
     assert live_reload_server_0.mount_path == "/"
     assert live_reload_server_0.url == "http://Oi_'_$fD,,:Oi_'_$fD,,/"
@@ -104,7 +104,7 @@ def test_case_3():
     assert live_reload_server_0.builder == " Rr\x0bECyL\rfR}/BL]RHL"
     assert (
         live_reload_server_0.root
-        == "/Users/souleymanecheikhsidia/Documents/Spring 2025/Pyguin_test/mkdocs/ Rr\x0bECyL\rfR}/BL]RHL"
+        == "./mkdocs/ Rr\x0bECyL\rfR}/BL]RHL"
     )
     assert live_reload_server_0.mount_path == "/"
     assert (
@@ -150,7 +150,7 @@ def test_case_4():
     assert live_reload_server_0.builder is None
     assert (
         live_reload_server_0.root
-        == "/Users/souleymanecheikhsidia/Documents/Spring 2025/Pyguin_test/mkdocs/p"
+        == "./mkdocs/p"
     )
     assert live_reload_server_0.mount_path == "/"
     assert live_reload_server_0.url == "http://p:None/"
@@ -193,7 +193,7 @@ def test_case_5():
     assert live_reload_server_0.builder == " Rr\x0bECyL\rfR}/BL]RHL"
     assert (
         live_reload_server_0.root
-        == '/Users/souleymanecheikhsidia/Documents/Spring 2025/Pyguin_test/mkdocs/]"O0kZ\n]X@lGsA'
+        == './mkdocs/]"O0kZ\n]X@lGsA'
     )
     assert live_reload_server_0.mount_path == "/"
     assert live_reload_server_0.url == "http://DQ`<O:DQ`<O/"
@@ -234,7 +234,7 @@ def test_case_6():
     assert live_reload_server_0.builder is None
     assert (
         live_reload_server_0.root
-        == '/Users/souleymanecheikhsidia/Documents/Spring 2025/Pyguin_test/mkdocs/]"O0kZ\n]X@lGsA'
+        == './mkdocs/]"O0kZ\n]X@lGsA'
     )
     assert live_reload_server_0.mount_path == "/"
     assert live_reload_server_0.url == 'http://]"O0kZ\n]X@lGsA:None/'
@@ -275,7 +275,7 @@ def test_case_7():
     assert live_reload_server_0.builder is None
     assert (
         live_reload_server_0.root
-        == "/Users/souleymanecheikhsidia/Documents/Spring 2025/Pyguin_test/mkdocs/ Rr\x0bECyL\rfR}/BL]RHL"
+        == "./mkdocs/ Rr\x0bECyL\rfR}/BL]RHL"
     )
     assert live_reload_server_0.mount_path == "/"
     assert live_reload_server_0.url == "http://p:None/"
@@ -325,7 +325,7 @@ def test_case_8():
     assert live_reload_server_0.builder == "<IP:PORT>"
     assert (
         live_reload_server_0.root
-        == "/Users/souleymanecheikhsidia/Documents/Spring 2025/Pyguin_test/mkdocs/<IP:PORT>"
+        == "./mkdocs/<IP:PORT>"
     )
     assert live_reload_server_0.mount_path == "/"
     assert live_reload_server_0.url == "http://<IP:PORT>:False/"
@@ -366,7 +366,7 @@ def test_case_9():
     assert live_reload_server_0.builder is None
     assert (
         live_reload_server_0.root
-        == "/Users/souleymanecheikhsidia/Documents/Spring 2025/Pyguin_test/mkdocs/,"
+        == "./pyguin_test/mkdocs/,"
     )
     assert live_reload_server_0.mount_path == "/"
     assert live_reload_server_0.url == "http://,:None/"

@@ -139,7 +139,7 @@ def test_case_7():
     str_0 = theme_0.__repr__()
     assert (
         str_0
-        == "Theme(name=None, dirs=['/Users/souleymanecheikhsidia/Documents/Spring 2025/Pyguin_test/mkdocs/mkdocs/templates'], static_templates={'sitemap.xml'}, name=None, locale=Locale('en'))"
+        == "Theme(name=None, dirs=['./mkdocs/mkdocs/templates'], static_templates={'sitemap.xml'}, name=None, locale=Locale('en'))"
     )
     none_type_0 = None
     var_0 = theme_0.__len__()

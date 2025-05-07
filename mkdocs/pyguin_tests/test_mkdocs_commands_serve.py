@@ -5,5 +5,6 @@ import mkdocs.commands.serve as module_0
 
 
 @pytest.mark.xfail(strict=True)
+@pytest.mark.skip(reason='Does not terminate')
 def test_case_0():
     module_0.serve()

@@ -1,0 +1,15 @@
+
+[run]
+omit =
+    mkdocs/tests/*
+    mkdocs/pyguin_tests/*
+
+[report]
+omit =
+    mkdocs/tests/*
+    mkdocs/pyguin_tests/*
+
+include =
+    mkdocs/config/*
+    mkdocs/structure/*
+    mkdocs/commands/*
