@@ -38,6 +38,8 @@ def _strip_tags(text: str) -> str:
 
     # Collapse whitespace
     text = ' '.join(text.split())
+    assert '<' not in text and '>' not in text, "Text still contains HTML tags after stripping"
+
     return text
 
 
